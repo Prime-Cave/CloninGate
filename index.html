@@ -132,7 +132,7 @@
           <div class=" md:flex-row flex flex-col-reverse  items-center">
             <div class="flex-grow px-5 lg:px-16 py-8">
               <p class="uppercase text-textgray">Faith & Service</p>
-              <h2 class="xl:text-5xl font-bold mt-2 text-4xl font-cond">The Demands of Justice</h2>
+              <h2 class="xl:text-5xl font-bold mt-2 text-4xl ">The Demands of Justice</h2>
               <p class="mt-6">Notre Dame is animated by a faith that inspires us to seek knowledge because of the powerful tool it can be to improve humankind.</p>
               <p>
                 <a class="text-lg py-4 px-4 mt-4 block ml-auto" href="">
@@ -144,15 +144,17 @@
             <img class="md:w-[51.5%] md:min-h-[350px] object-cover  outline-1 outline-white -outline-offset-8"
           src="https://www.nd.edu/assets/images/home/pillar-faith-800.avif" alt="">
           </div>
-          <!-- Card2 -->
-          <div>
-            <img src="" alt="" />
-            <div>
-              <p>Global</p>
-              <h2>The Connected World</h2>
+          <!-- Card3 -->
+          <div class="flex flex-col md:flex-row items-center mt-16">
+            <img
+          class="md:w-[51.5%] md:min-h-[350px] object-cover outline-1 outline-white -outline-offset-8 self-end -mb-3 scale-110 -ml-10 mr-10"
+          src="https://www.nd.edu/assets/images/home/pillar-global-800.avif" alt="">
+            <div class="flex-grow px-5 lg:px-16 py-8 mt-8 md:mt-0">
+              <p class="uppercase text-textgray">Global</p>
+              <h2  class="font-bold mt-2 text-4xl xl:text-5xl">The Connected World</h2>
               <p>Notre Dame seeks to be in the world, and to bring the world to Notre Dame, because inquiry and scholarly exchange are enriched by the pursuit of cultural fluency.</p>
               <p>
-                <a href="">
+                <a class="text-lg py-4 px-4 mt-4 block ml-auto" href="">
                   Global Scholarship at ND           
                   <svg></svg>
                 </a>
@@ -163,50 +165,59 @@
         </section>
 
         <!-- University News Section -->
-        <section>
-          <h2>University News</h2>
-
-          <p>Notre Dame At Work</p>
-
+        <section class="mt-28 px-4 lg:px-12">
+          <div class="flex justify-between">
+            <div>
+            <h2 class="uppercase text-textgray">University News</h2>
+            <p class="text-4xl lg:text-5xl font-bold">Notre Dame At Work</p>
+          </div>
+          <div>
           <p>
-            <a href="">
+            <a class="py-4 px-4 mt-4 block ml-auto" href="">
               View all news 
-              <svg></svg>
             </a>
           </p>
+          </div>
+          </div>
 
           <div>
-            <article>
-                <img src="" alt="" />
-              <div>
-                <h3>
+            <article class="relative w-full hidden lg:block">
+              <div class="w-[66%] h-full bg-graylight ml-auto">
+                <div class="w-[44%] ml-auto pt-10 pb-16 mr-20">
+                <p class="text-textgray text-lg">INTERNATIONAL</p>
+                <h3 class="text-xl xl:text-3xl ">
                   <a href="">
                     University of Notre Dame wins award for excellence in campus internationalization                  
                   </a>
                 </h3>
                 <div>
-                  <p>
+                  <p class="hidden">
                     In recognition of its outstanding commitment to internationalization both on campus and across the globe, the University of Notre Dame has been selected to receive the 2025 Senator Paul Simon Award for Comprehensive Internationalization. Named for the late Sen. Paul Simon, a longtime proponent of international education, the award is given by NAFSA: Association of International Educators to honor excellence in integrating international education throughout all facets of university and college campuses.                  
                   </p>
                   <p>
-                    <a href="">
+                    <a class="py-4 px-4 mt-4 block ml-auto" href="">
                       Read Article                       
                     <svg></svg>
                     </a>
                   </p>
                 </div>
+                </div>
               </div>
+              <img class="w-[60%] absolute left-0 top-8" src="https://news.nd.edu/assets/604955/1200x/globering_2025.jpg"
+                alt="">
             </article>
 
-            <article>
-              <img src="" alt="" />
-              <div>
+
+            <article class="lg:col-span-2 flex flex-col md:flex-row -order-1 lg:order-none mt-7">
+              <img class="md:w-60 lg:w-[40.5%]" src="https://news.nd.edu/assets/604183/800x/mc_mcob_banner.jpg" alt="">
+              <div class="ml-8 md:ml-6 lg:ml-10 relative mt-6 md:mt-10">
+                <p class="text-textgray md:mt-5 uppercase">Latest News</p>
                 <h3>
-                  <a href="">
+                  <a class="text-lg lg:text-xl w-5/6 md:w-auto" href="">
                     ND Ethics Week explores business and sustainability
                   </a>
                 </h3>
-                <div>
+                <div class="hidden">
                   <p>The annual Ethics Week series, sponsored by the Mendoza College of Business, brings in experts from diverse perspectives to explore current ethics-related issues.</p>
                   <p>
                     <a href="">
@@ -218,39 +229,35 @@
               </div>
             </article>
 
+            <article class="mt-5 md:mt-0 py-5 md:pb-12 px-8 relative">
+              <p class="text-textgray md:mt-5 uppercase">Community News</p>
+              <h3 class="text-lg lg:text-xl w-5/6 md:w-auto">
+                <a href="">
+                  Notre Dame partners with community organizations for Walk the Walk Week service project
+                </a>
+              </h3>
 
-            <article>
-              <div>
-                <p>Community News</p>
-                <h3>
+              <div class="hidden">
+                <p>
+                  Nearly 300 students from the University of Notre Dame took over Duncan Student Center on Feb. 1 to sort through thousands of donated items to create winter and personal care kits for this year’s Walk the Walk Week service project.
+                </p>
+                <p>
                   <a href="">
-                    Notre Dame partners with community organizations for Walk the Walk Week service project
+                    Read Article 
+                    <svg></svg>
                   </a>
-                </h3>
+                </p>
+            </div>
+          </article>
 
-                <div>
-                  <p>
-                    Nearly 300 students from the University of Notre Dame took over Duncan Student Center on Feb. 1 to sort through thousands of donated items to create winter and personal care kits for this year’s Walk the Walk Week service project.
-                  </p>
-                  <p>
-                    <a href="">
-                      Read Article 
-                      <svg></svg>
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article>
-              <div>
-                <p>Faculty and Staff</p>
-                <h3>
+            <article class="mt-5 pb-12 px-8  relative">
+                <p class="text-textgray md:mt-5 uppercase">Faculty and Staff</p>
+                <h3 class="text-lg lg:text-xl w-5/6 md:w-auto">
                   <a href="">
                     Physicist Laura Fields granted a Presidential Early Career Award
                   </a>
                 </h3>
-                <div>
+                <div class="hidden">
                   <p>
                     Laura Fields, an associate professor in the Department of Physics & Astronomy at the University of Notre Dame, received the Presidential Early Career Award for Scientists and Engineers (PECASE) for her research studying the properties of fundamental particles called neutrinos.
                   </p>
@@ -261,45 +268,44 @@
                     </a>
                   </p>
                 </div>
-              </div>
             </article>
           </div>
 
         </section>
 
         <!-- University Stories Section -->
-        <section>
-          <h2>University Stories</h2>
+        <section class="mt-5 px-4 lg:px-12">
+          <div class="flex justify-between">
+            <div class="flex justify-between">
+              <h2>University Stories</h2>
           <p>Notre Dame In Focus</p>
           <p>
-            <a href="">
+            </div>
+            <a class="py-4 px-4 mt-4 block ml-auto" href="">
               View all stories 
-              <svg></svg>
           </p>
-          <div>
-            <article>
-              <p>
-                <img src="" alt="" />
-              </p>
-              <div>
-                <p>Global</p>
-                <h3>
+          </div>
+
+          <div class="grid lg:grid-cols-3 lg:gap-x-8">
+            <article class="flex flex-col md:flex-row lg:flex-col mt-7 pb-10 md:pb-0 lg:pb-10">
+              <img class="md:w-60 lg:w-full" src="https://www.nd.edu/stories/images/2025/2025-sampoorna-800.webp" alt="">
+              <div class="ml-8 md:ml-6 lg:ml-6 relative mt-6 md:mt-0">
+                <p class="text-textgray md:mt-5 uppercase">Global</p>
+                <h3 class="text-xl lg:text-2xl  w-5/6 md:w-auto">
                   <a href="">
                     Empowering through education
                   </a>
                 </h3>
-                <p>A pathway out of poverty for children in India</p>
+                <p class="mt-3 text-textgray">A pathway out of poverty for children in India</p>
               </div>
             </article>
 
-            <article>
-              <p>
-                <img src="" alt="" />
-              </p>
-              <div>
-                <p>Community</p>
-                <h3>
-                  <a href="">
+            <article class="flex flex-col md:flex-row lg:flex-col mt-7 pb-10 md:pb-0 lg:pb-10">
+              <img class="md:w-60 lg:w-full" src="https://www.nd.edu/stories/images/2025/2025-habitat-800.jpg" alt="">
+              <div class="ml-8 md:ml-6 lg:ml-6 relative mt-6 md:mt-0">
+                <p class="text-textgray md:mt-5 uppercase">Community</p>
+                <h3 >
+                  <a class="text-xl lg:text-2xl w-5/6 md:w-auto" href="">
                     Habitat partnership bears fruit for homebuyers in South Bend
                   </a>
                 </h3>
@@ -307,18 +313,17 @@
               </div>
             </article>
 
-            <article>
-              <p>
-                <img src="" alt="" />
-              </p>
-              <div>
-                <p>University</p>
+            <article class="flex flex-col md:flex-row lg:flex-col mt-7 pb-10 md:pb-0 lg:pb-10">
+              <img class="md:w-60 lg:w-full" src="https://www.nd.edu/stories/images/2024/2024-reasons-to-serve-800.webp"
+            alt="">
+              <div class="ml-8 md:ml-6 lg:ml-6 relative mt-6 md:mt-0">
+                <p class="text-textgray md:mt-5 uppercase">University</p>
                 <h3>
-                  <a href="">
+                  <a class="text-xl lg:text-2xl w-5/6 md:w-auto" href="">
                     Reasons to serve
                   </a>
                 </h3>
-                <p>History, West Point, and 9/11 memorial inspire ND ROTC students in New York</p>
+                <p class="mt-3 text-textgray">History, West Point, and 9/11 memorial inspire ND ROTC students in New York</p>
               </div>
             </article>
           </div>
@@ -339,7 +344,8 @@
         </section>
 
         <!-- Unversity Events Section-->
-        <section></section>
+        <section>
+        </section>
       </main>
      </div>
     <!-- End of the Main Section -->
