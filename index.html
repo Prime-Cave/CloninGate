@@ -1,13 +1,195 @@
 <!DOCTYPE html>
+
+<!-- I'm Cloning https://www.nd.edu/ -->
 <html class="bg-gray-200 font-serif text-gray-900">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/input.css" rel="stylesheet" />
   </head>
-  <body class="">
-   <h1 class="text-4xl text-center">
-      Hello World
-   </h1>
+  <body class="mx-auto">
+    <!-- This is The Header Section -->
+    <header class="bg-white">
+      <!-- Center of the Header Section -->
+    </header>
+    <!-- This is The Footer Section -->
+    <footer class="flex flex-col space-y-10">
+      <!-- Start of the footer Section-->
+      <div
+        class="bg-blue-950 text-white py-10 font-serif text-xl font-medium text-center"
+      >
+        <nav>
+          <ul
+            class="flex flex-col space-y-5 md:flex-row md:space-y-0 md:space-x-5 md:justify-between md:px-3"
+          >
+            <li>
+              <a href=""> Bookstore </a>
+            </li>
+            <li>
+              <a href=""> Employment </a>
+            </li>
+            <li>
+              <a href=""> Tour </a>
+            </li>
+            <li>
+              <a href=""> InsideND </a>
+            </li>
+            <li>
+              <a href=""> Academic Calendar </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Center of the Footer Section -->
+      <div class="px-3 bg-white space-y-10">
+        <a href="https://www.nd.edu/"> </a>
+
+        <nav class="flex text-gray-600 justify-center">
+          <ul
+            class="place-items-center font-serif font-light text-xl space-y-5 md:flex-row md:space-y-0 md:space-x-5"
+          >
+            <li>
+              <a class="flex row gap-1" href="https://search.nd.edu/">
+                <svg class="icon w-6 h-6 text-blue-600" data-icon="facebook">
+                  <use
+                    xmlns:xlink="https://www.w3.org/1999/xlink"
+                    xlink:href="#icon-facebook"
+                  ></use>
+                </svg>
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a class="flex row gap-1" href="https://search.nd.edu/">
+                <svg class="icon w-6 h-6 text-blue-400" data-icon="twitter-x">
+                  <use
+                    xmlns:xlink="https://www.w3.org/1999/xlink"
+                    xlink:href="#icon-twitter-x"
+                  ></use>
+                </svg>
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a class="flex row gap-1" href="https://search.nd.edu/">
+                <svg class="icon w-6 h-6 text-pink-600" data-icon="instagram">
+                  <use
+                    xmlns:xlink="https://www.w3.org/1999/xlink"
+                    xlink:href="#icon-instagram"
+                  ></use>
+                </svg>
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a class="flex row gap-1" href="https://search.nd.edu/">
+                <svg class="icon w-6 h-6 text-red-600" data-icon="youtube">
+                  <use
+                    xmlns:xlink="https://www.w3.org/1999/xlink"
+                    xlink:href="#icon-youtube"
+                  ></use>
+                </svg>
+                Youtube
+              </a>
+            </li>
+            <li>
+              <a class="flex row gap-1" href="https://search.nd.edu/">
+                <svg class="icon w-6 h-6 text-blue-700" data-icon="linkedin">
+                  <use
+                    xmlns:xlink="https://www.w3.org/1999/xlink"
+                    xlink:href="#icon-linkedin"
+                  ></use>
+                </svg>
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="text-center">
+          <p>
+            <a href="https://search.nd.edu/">© 2025</a>
+            <a href="https://search.nd.edu/">University of Notre Dame</a>
+          </p>
+          <p>
+            <span> Notre Dame </span> ", " IN
+            <span> 46556 </span>
+            <span> USA </span>
+          </p>
+          <p>
+            <span> Phone: </span>
+            <a href="tel:5746315000">574-631-5000</a>
+          </p>
+          <p>
+            <a href="/about/Contact">Contact Us</a>
+          </p>
+        </div>
+      </div>
+      <!-- End of Footer Section -->
+      <div class="px-3">
+        <nav class="flex text-gray-600 justify-center">
+          <ul
+            class="place-items-center font-serif font-light text-xl space-y-5 md:flex-row md:space-y-0 md:space-x-5"
+          >
+            <li>
+              <a href="https://search.nd.edu/">Search</a>
+            </li>
+            <li>
+              <a href="https://search.nd.edu/">Mobile App</a>
+            </li>
+            <li>
+              <a href="https://search.nd.edu/">News</a>
+            </li>
+            <li>
+              <a href="https://search.nd.edu/">Events</a>
+            </li>
+            <li>
+              <a href="https://search.nd.edu/">Visit</a>
+            </li>
+            <li>
+              <a href="#">Accessibility</a>
+            </li>
+            <li>
+              <a href="#">Emergency</a>
+            </li>
+            <li>
+              <a href="#">Closed Captioning</a>
+            </li>
+            <li>
+              <a href="#">Notice of Non-Discrimination</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- Include SVG sprite sheet -->
+    <svg style="display: none">
+      <symbol id="icon-facebook" viewBox="0 0 32 32">
+        <path
+          d="M29 0h-26c-1.657 0-3 1.343-3 3v26c0 1.657 1.343 3 3 3h14v-12h-4v-4h4v-3c0-4.418 3.582-8 8-8h4v4h-4c-2.209 0-4 1.791-4 4v3h4l-1 4h-3v12h6c1.657 0 3-1.343 3-3v-26c0-1.657-1.343-3-3-3z"
+        ></path>
+      </symbol>
+      <symbol id="icon-twitter-x" viewBox="0 0 32 32">
+        <path
+          d="M32 6.076c-1.177 0.522-2.444 0.875-3.769 1.034 1.355-0.812 2.396-2.096 2.887-3.627-1.268 0.751-2.674 1.297-4.172 1.591-1.196-1.276-2.899-2.073-4.785-2.073-3.623 0-6.561 2.938-6.561 6.561 0 0.514 0.058 1.015 0.17 1.496-5.454-0.274-10.292-2.884-13.529-6.85-0.565 0.97-0.889 2.096-0.889 3.297 0 2.275 1.158 4.283 2.918 5.46-1.075-0.034-2.086-0.329-2.971-0.82v0.082c0 3.177 2.261 5.828 5.263 6.431-0.55 0.15-1.13 0.23-1.726 0.23-0.423 0-0.834-0.041-1.235-0.117 0.835 2.606 3.26 4.504 6.134 4.556-2.247 1.76-5.077 2.81-8.153 2.81-0.53 0-1.053-0.031-1.567-0.092 2.905 1.863 6.355 2.95 10.065 2.95 12.077 0 18.681-10.003 18.681-18.681 0-0.285-0.006-0.568-0.019-0.85 1.282-0.925 2.396-2.082 3.276-3.4z"
+        ></path>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 32 32">
+        <path
+          d="M16 7.2c-4.853 0-8.8 3.947-8.8 8.8s3.947 8.8 8.8 8.8 8.8-3.947 8.8-8.8-3.947-8.8-8.8-8.8zM16 22.4c-3.531 0-6.4-2.869-6.4-6.4s2.869-6.4 6.4-6.4 6.4 2.869 6.4 6.4-2.869 6.4-6.4 6.4zM24.8 6.4c0 1.178-0.956 2.133-2.133 2.133s-2.133-0.956-2.133-2.133 0.956-2.133 2.133-2.133 2.133 0.956 2.133 2.133zM28.8 9.6c-0.053-1.153-0.24-2.173-0.52-3.2-0.28-1.027-0.653-1.947-1.2-2.8-0.547-0.853-1.2-1.507-2.053-2.053-0.853-0.547-1.773-0.92-2.8-1.2-1.027-0.28-2.047-0.467-3.2-0.52-1.253-0.053-1.653-0.067-4.8-0.067s-3.547 0.013-4.8 0.067c-1.153 0.053-2.173 0.24-3.2 0.52-1.027 0.28-1.947 0.653-2.8 1.2-0.853 0.547-1.507 1.2-2.053 2.053-0.547 0.853-0.92 1.773-1.2 2.8-0.28 1.027-0.467 2.047-0.52 3.2-0.053 1.253-0.067 1.653-0.067 4.8s0.013 3.547 0.067 4.8c0.053 1.153 0.24 2.173 0.52 3.2 0.28 1.027 0.653 1.947 1.2 2.8 0.547 0.853 1.2 1.507 2.053 2.053 0.853 0.547 1.773 0.92 2.8 1.2 1.027 0.28 2.047 0.467 3.2 0.52 1.253 0.053 1.653 0.067 4.8 0.067s3.547-0.013 4.8-0.067c1.153-0.053 2.173-0.24 3.2-0.52 1.027-0.28 1.947-0.653 2.8-1.2 0.853-0.547 1.507-1.2 2.053-2.053 0.547-0.853 0.92-1.773 1.2-2.8 0.28-1.027 0.467-2.047 0.52-3.2 0.053-1.253 0.067-1.653 0.067-4.8s-0.013-3.547-0.067-4.8zM16 24.8c-4.853 0-8.8-3.947-8.8-8.8s3.947-8.8 8.8-8.8 8.8 3.947 8.8 8.8-3.947 8.8-8.8 8.8z"
+        ></path>
+      </symbol>
+      <symbol id="icon-youtube" viewBox="0 0 32 32">
+        <path
+          d="M31.8 9.6c-0.4-1.6-1.6-2.8-3.2-3.2-2.8-0.8-14-0.8-14-0.8s-11.2 0-14 0.8c-1.6 0.4-2.8 1.6-3.2 3.2-0.8 2.8-0.8 8.8-0.8 8.8s0 6 0.8 8.8c0.4 1.6 1.6 2.8 3.2 3.2 2.8 0.8 14 0.8 14 0.8s11.2 0 14-0.8c1.6-0.4 2.8-1.6 3.2-3.2 0.8-2.8 0.8-8.8 0.8-8.8s0-6-0.8-8.8zM12.8 20.8v-9.6l8 4.8-8 4.8z"
+        ></path>
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 32 32">
+        <path
+          d="M29 0h-26c-1.657 0-3 1.343-3 3v26c0 1.657 1.343 3 3 3h26c1.657 0 3-1.343 3-3v-26c0-1.657-1.343-3-3-3zM11.6 24.8h-4.8v-12.8h4.8v12.8zM9.2 10.8c-1.536 0-2.8-1.264-2.8-2.8s1.264-2.8 2.8-2.8 2.8 1.264 2.8 2.8-1.264 2.8-2.8 2.8zM24.8 24.8h-4.8v-6.4c0-1.6-1.2-2.8-2.8-2.8s-2.8 1.2-2.8 2.8v6.4h-4.8v-12.8h4.8v1.6c0.8-1.2 2.4-2 4-2 3.2 0 5.6 2.4 5.6 5.6v8.8z"
+        ></path>
+      </symbol>
+    </svg>
   </body>
 </html>
