@@ -9,11 +9,34 @@
   </head>
   <body class="">
     <!-- This is The Header/Main NavBar Section -->
-    <header class="bg-white">
-      <!-- Center of the Header Section -->
-       <section class="">
+    <header class="bg-brandblue border-t-4 h-32 border-brandgold grid grid-cols-3 px-8">
+        <div class="col-span-full justify-self-center lg:justify-self-start lg:col-span-1">
+            <img class="h-30" src="./public/img/logo.png" alt="" />
+        </div>
 
-       </section>
+        <div class="hidden lg:block col-span-2 my-3">
+          <div class="text-white justify-end flex tracking-wide">
+            <button class="  px-6 py-1 rounded-lg font-bold ">About</button>
+            <button class="  px-6 py-1 rounded-lg font-bold ">Visit</button>
+            <div class="min-h-full border-l border-graylight/100 mx-2"></div>
+            <button class="  px-6 py-1 rounded-lg">Give <i
+                class="indent-1 text-white/80"></i></button>
+            <button class="  px-6 py-1 rounded-lg">Alumni <i
+                class="indent-1 text-white/80"></i></button>
+            <button class="  px-6 py-1 rounded-lg">Athletics <i
+                class="indent-1 text-white/80"></i></button>
+          </div>
+
+          <div class="relative -bottom-11 flex w-full bg-white text-textgray *:flex-grow h-16 *:leading-[100%] ">
+            <button class="">Academics</button>
+            <button class="">Admissions</button>
+            <button class="">Research</button>
+            <button class="">Global</button>
+            <button class="">Faith & Service</button>
+            <button class="">Campus Life</button>
+            <button class=" flex-shrink border-l min-w-14"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
     </header>
 
     <!-- Mobile NavBar -->
@@ -24,7 +47,7 @@
 
     <!-- This is The Main Section -->
      <div>
-      <div class=" object-cover " style="background-image: url('https://www.nd.edu/assets/features/wwyff-takeover/images/campus_spring_scenic-1920.webp');">
+      <div class=" object-cover">
         <div class="">    
           <img class="size-56" src="./public/img/03_logo-wwyff-w.svg" />
           <p class="text-white">
@@ -322,9 +345,9 @@
 
     <!-- This is The Footer Section -->
     <footer class="mt-8 text-textgray ">
-      <div class="py-8 px-6 bg-brandblue text-white text-lg md:py-8">
+      <div class="py-8 px-6 bg-brandblue text-white text-sm md:py-8">
         <div>
-          <nav class="flex flex-col md:flex-row md:justify-between">
+          <nav class="flex flex-col md:flex-row md:justify-between lg:justify-start">
             <h2 class="invisible">Quick Links</h2>
 
             <ul class="text-center flex flex-col md:flex-row md:flex-wrap md:space-x-7">
@@ -363,13 +386,13 @@
       </div>
 
       <div class="py-8 px-6 bg-white ">
-        <div class="flex flex-col justify-center md:justify-between">
-          <a class="my-8 mx-20 md:mt-8 md:mb-4 md:mx-60" href="">
+        <div class="flex flex-col lg:flex-row lg:justify-around  lg:gap-6 justify-center md:justify-between">
+          <a class="my-8 mx-20 md:mt-8 md:mb-4 md:mx-60 lg:mx-0 lg:my-0 lg:w-[200px] lg:h-[90px] " href="">
             <img class="" src="./public/img/footer.png" alt="University of Notre Dame" />
           </a>
 
-          <nav class="mb-8 md:mb-8">
-            <ul class="md:flex flex-row md:justify-center md:space-x-7 text-center">
+          <nav class="mb-8 md:mb-8 ">
+            <ul class="md:flex flex-row lg:grid lg:grid-cols-3 md:justify-center p md:space-x-7 text-center">
               <li class="py-2">
                 <a  href="">
                   <sv></sv>
@@ -407,7 +430,7 @@
             </ul>
           </nav>
 
-          <div class="text-center">
+          <div class="text-center lg:text-left">
             <p class="font-bold underline underline-offset-1 ">
               <a>
                 © 2025
@@ -452,18 +475,17 @@
 
       </div>
 
-      <div class="py-4 px-6 text-center bg-graylight text-lg">
+      <div class="py-4 px-6 text-center bg-graylight text-lg lg:text-md lg:py-4">
         <div>
-          <nav class="flex flex-col md:justify-center">
-
-            <ul class="md:flex flex-row md:justify-center md:mt-2 md:px-2 md:space-x-16">
-              <li class="py-2 ">
+          <nav class="flex flex-col lg:text-sm md:justify-center lg:flex-row lg:justify-between">
+            <ul class="md:flex flex-row md:justify-center lg:flex-row lg:flex-nowrap lg:justify-start  md:mt-2 md:px-2 lg:space-x-9 md:space-x-16">
+              <li class="py-2 lg:flex-nowrap ">
                 <a href="">
                   Search
                 </a>
               </li>
 
-              <li class="py-2">
+              <li class="py-2 lg:flex-nowrap ">
                 <a href="">
                   Mobile App
                 </a>
@@ -488,7 +510,7 @@
               </li>
             </ul>
 
-            <ul class="md:flex flex-row flex-wrap md:justify-center md:mb-2 md:space-x-16">
+            <ul class="md:flex flex-row flex-wrap md:justify-center lg:flex-row lg:justify-end lg:flex-nowrap md:mb-2 lg:mb-0 lg:space-x-9  md:space-x-16">
               <li class="py-2">
                 <a class="md:px-4 md:py-1" href="">
                   Accessibility
@@ -502,12 +524,12 @@
               </li>
 
               <li class="py-2">
-                <a class="md:px-4 md:py-1"  href="">
+                <a class="md:px-4 md:py-1 "  href="">
                   Closed Captioning
                 </a>
               </li>
 
-              <liclass="py-2">
+              <li class="py-2">
                 <a class="md:px-4 md:py-1 md:self-center"  href="">
                   Notice of Non-Discrimination
                 </a>
